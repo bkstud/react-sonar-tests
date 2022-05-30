@@ -1,4 +1,8 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bkstud_react-sonar-tests&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bkstud_react-sonar-tests)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=bkstud_react-sonar-tests&metric=bugs)](https://sonarcloud.io/summary/new_code?id=bkstud_react-sonar-tests)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=bkstud_react-sonar-tests&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=bkstud_react-sonar-tests)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=bkstud_react-sonar-tests&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=bkstud_react-sonar-tests)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=bkstud_react-sonar-tests&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=bkstud_react-sonar-tests)
 
 # Getting Started with Create React App
 
