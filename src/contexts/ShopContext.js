@@ -6,12 +6,12 @@ export const ShopContext = React.createContext([]);
 
 export const ShopContextProvider = (props) => {
     const [products, setProducts] = useState([]);
-    const {fetchProducts, _} = useApi()
+    const {fetchProducts} = useApi()
     const UseBasket = useBasket({products, setProducts})
     useEffect(() => {
       fetchProducts()
-        .then((products) => {
-          setProducts(products)
+        .then((prods) => {
+          setProducts(prods)
         })
       }, []);
   

@@ -9,13 +9,12 @@ function useApi() {
     }
 
     async function updateProducts(data) { 
-        const response = await fetch(BACKEND_URL + "/basket", {
+        return await fetch(BACKEND_URL + "/basket", {
                                     method: "POST",
                                     headers: {'Content-Type': 'application/json'},
                                     body: JSON.stringify(data)}).then(
             response => response.json())
         
-        return response
     }
     
     return {fetchProducts, updateProducts}

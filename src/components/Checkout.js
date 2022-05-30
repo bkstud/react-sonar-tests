@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import ShopContext from "../contexts/ShopContext";
 import useApi from '../api/products'
 
-function Checkout(props) {
+function Checkout(_props) {
   const {products, useBasket} = useContext(ShopContext);
   const basket = useBasket.basket
   const result = basket.reduce((total, currentValue) => total = total + currentValue.Price, 0);

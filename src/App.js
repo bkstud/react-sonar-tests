@@ -1,5 +1,4 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import {ShopContextProvider} from './contexts/ShopContext'
 
 import Products from './components/Products';

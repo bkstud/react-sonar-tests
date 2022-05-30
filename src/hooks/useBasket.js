@@ -17,11 +17,11 @@ function useBasket(props) {
     if(product.State === "basket" || product.State === "bought")
       return
       
-      product.State = "basket"
+    product.State = "basket"
 
-      setBasket([
-      ...basket,
-      product
+    setBasket([
+    ...basket,
+    product
     ])
     updateProducts([product])
   }

@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
 
 import ShopContext from "../contexts/ShopContext";
-import useBasket from '../hooks/useBasket';
 
-function Products(props) {
+function Products(_props) {
   const {products, useBasket} = useContext(ShopContext);
   const addProduct = useBasket.addProduct
   return (

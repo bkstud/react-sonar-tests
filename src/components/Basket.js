@@ -1,8 +1,8 @@
-import React, { useContext, useEffect} from 'react';
+import React, { useContext} from 'react';
 import ShopContext from "../contexts/ShopContext";
 
-function Basket(props) {
-  const {products, useBasket} = useContext(ShopContext);
+function Basket(_props) {
+  const {useBasket} = useContext(ShopContext);
   const basket = useBasket.basket
   
   return (
